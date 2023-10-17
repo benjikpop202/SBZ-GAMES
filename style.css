@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    display: grid;
+}
+.contenedor{
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    background: url(HD\ wallpaper_\ retro\ games\,\ neon.jpeg);
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.contenedor h1{
+    color: #fff;
+    margin-top: 30px;
+    font-size: 4rem;
+    border: 1px solid #fff;
+    padding: 20px 30px;
+    text-shadow: 0px 0px 10px #fff;
+    box-shadow: 0px 0px 10px #fff;
+}
+
+
+
+.contenedor ul{
+    margin-top: 30px;
+    display: flex;
+    width: 70%;
+    min-height: 20vh;
+    border: 1px solid #fff;
+    box-shadow: 0px 0px 10px #fff;
+}
+
+.contenedor li{
+    width: 500px;
+    min-height: 20vh;
+    border: 1px solid #fff;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    color: #fff;
+    box-shadow: 0px 0px 10px #fff;
+    background-color: transparent;
+    transition: 0.5s;
+}
+
+ li.active{
+  background-color: blueviolet;
+  color: black;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 0px 0px 10px #fff;
+}
+
+
+section{
+    display: none;
+}
+
+
+
+/* contenido de la seccion principal */
+
+#seccion-principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+#seccion-principal h2{
+    margin-top: 150px;
+    color: #fff;
+    background-color: #000;
+    padding: 0px 500px;
+
+}
+
+.juegos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    min-height: 50vh;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    background-color: #000;
+    
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    align-items: center;
+    margin: 20px;
+    width: 300px;
+    height: 350px;
+    border: 1px solid #fff;
+    background-color: #333;
+}
+
+.imagen{
+    display: flex;
+    width: 270px;
+    height: 270px;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.links{
+    margin-top: 15px;
+    font-size: 1.5rem;
+    color: violet;
+    text-shadow: 0px 0px 10px violet;
+}
+
+/*estilos de Noticias */
+.contenedorNoticia {
+    width: 100%;
+    min-height: 100vh; 
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.noticia{
+    display: flex;
+    flex-direction: column;
+    width: 50%; 
+    height: 500px;; 
+    background-color: #293447;
+    border: 3px solid #fff;
+    overflow: hidden; 
+    color: #fff;
+    text-align: center;
+    border-radius: 30px;
+    margin: 10px 0;;
+}
+
+.portada{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    height:250px ;
+    background-color: #222;
+}
+
+ .Fecha{
+    background-color: #333;
+    display: flex;
+    width: 100%;
+    height: 20px;
+}
+
+.descripcion{
+    height: 250px;
+    text-align: center;
+}
+
+.descripcion p{
+    margin-top: 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+
+
+.portada .Title{
+    font-size: 2rem;
+    color: violet;
+    text-shadow: 0 0 3px violet;
+}
+
+/*estilos de seccion "Nosotros"*/
+
+.marco{
+    width: 800px;
+    height: 400px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border-radius: 30px;
+    color: #fff;
+    background: linear-gradient(140deg, violet, indigo);
+}
+
+.marco .head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    background-color: #293447;
+    
+}
+
+.marco .body{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.body p{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 10px
+}
+
+.contactos{
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+}
+
+.items{
+    margin: 20px;
+}
+
+.items a{
+    color: #fff;
+}
+
+
+
+.redSocial{
+    width: 50px;
+    height: 50px;
+}
+
