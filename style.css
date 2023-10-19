@@ -8,6 +8,10 @@
 
 body{
     display: grid;
+    background: url(HD\ wallpaper_\ retro\ games\,\ neon.jpeg);
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    min-height: 100vh;
 }
 .contenedor{
     display: flex;
@@ -15,10 +19,6 @@ body{
     min-height: 100vh;
     align-items: center;
     flex-direction: column;
-    background: url(HD\ wallpaper_\ retro\ games\,\ neon.jpeg);
-    background-size: cover;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-
 }
 
 .contenedor h1{
