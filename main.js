@@ -1,29 +1,21 @@
-document.addEventListener("DOMContentLoaded", function () {
-    const links = document.querySelectorAll(".nav-link");
-    const sections = document.querySelectorAll(".apartado");
+let principal = document.getElementById("principal")
+let noticias = document.getElementById("noticias")
+let nosotros = document.getElementById("nosotros")
 
-    links.forEach(link => {
-        link.addEventListener("click", (e) => {
-            e.preventDefault();
-            const targetId = e.target.getAttribute("href").substring(1);
+principal.addEventListener("click", ()=>{
+    document.getElementById("seccion-principal").style.display = "flex"
+    document.getElementById("seccion-noticias").style.display = "none"
+    document.getElementById("seccion-nosotros").style.display = "none"
+})
 
-            sections.forEach(section => {
-                section.style.display = "none";
-            });
+noticias.addEventListener("click", ()=>{
+    document.getElementById("seccion-noticias").style.display = "flex"
+    document.getElementById("seccion-principal").style.display = "none"
+    document.getElementById("seccion-nosotros").style.display = "none"
+})
 
-            links.forEach(navLink => {
-                navLink.parentElement.classList.remove("active");
-            });
-
-            const targetSection = document.getElementById(targetId);
-            console.log(targetSection);
-            if (targetSection) {
-                targetSection.style.display = "flex";
-                e.target.parentElement.classList.add("active");
-            }
-        });
-    });
-    links[0].classList.add( "active");
-    sections[0].style.display = "flex";
-
-});
+nosotros.addEventListener("click", ()=>{
+    document.getElementById("seccion-nosotros").style.display = "flex"
+    document.getElementById("seccion-principal").style.display = "none"
+    document.getElementById("seccion-noticias").style.display = "none"
+})
