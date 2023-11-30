@@ -67,15 +67,12 @@ body{
     height: 100%;
     background: transparent;
     font-size: 1.5rem;
+    transition: 0.5s ease;
 }
 
 .nav-link:hover{
     cursor: pointer;
 }
-
-
-
-
 
 
 /* contenido de la seccion principal */
@@ -93,7 +90,7 @@ body{
     color: #fff;
     background-color: #000;
     padding: 0px 500px;
-
+    transition: 0.5s;
 }
 
 .juegos{
@@ -143,6 +140,7 @@ body{
     display: none;
     align-items: center;
     justify-content: center;
+    transition: 0.5s;
 }
 .contenedorNoticia {
     width: 80%;
@@ -221,6 +219,7 @@ body{
 
 #seccion-nosotros{
     display: none;
+    transition: 0.5s;
 }
 
 .marco{
